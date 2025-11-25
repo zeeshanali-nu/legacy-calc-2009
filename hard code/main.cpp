@@ -1,5 +1,5 @@
 #include<iostream>
-#include<fistream>
+#include<fstream>
 #include<string>
 #include "Loan.h"
 using namespace std;
@@ -27,7 +27,7 @@ if(input>0) loan_amount=input;
 cout<<"enter interest rate("<<interest_rate<<"):"<<endl;
 cin>>input;
 if(input>0) interest_rate=input;
-cout<<"enter the year("<<year<<"):"endl;
+cout<<"enter the year("<<year<<"):"<<endl;
 cin>>input;
 if(input>0) year=input;
 //input validation
@@ -44,6 +44,7 @@ cout<<"Total Interest: "<<myloan.calculateTotalinterest()<<endl;
 cout<<"Monthly Payment: "<<myloan.calculateMonthlyamount()<<endl;
 
 return 0;
+
 
 
 }
