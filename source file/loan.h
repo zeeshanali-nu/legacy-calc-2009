@@ -7,7 +7,7 @@ long double amount;
 long double interestRate;
 int years;
 public:
-Loan(long double a,long double r,int y);
+Loan(long double amount,long double interest,int year);
 long double calculateTotalamount();
 long double calculateTotalinterest();
 long  double calculateMonthlyamount();
@@ -15,3 +15,4 @@ long  double calculateMonthlyamount();
 
 };
 #endif
+
