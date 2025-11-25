@@ -1,4 +1,4 @@
-#include"Loan.h"
+#include"loan.h"
 #include<cmath>
 Loan::Loan(long double amount,long double interest,int year)
 {
@@ -18,4 +18,5 @@ long double Loan:: calculateMonthlyamount()
 {
 return calculateTotalamount()/(years*12);
 }
+
 
