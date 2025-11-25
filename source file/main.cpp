@@ -1,5 +1,5 @@
 #include<iostream>
-#include"Loan.h"
+#include"loan.h"
 using namespace std;
 int main()
 {
@@ -26,3 +26,4 @@ if(loan_amount<=0 || interest_rate<=0 || no_years<=0)
        cout<<"Monthly Amounts to be Paid: "<<myloan.calculateMonthlyamount()<<endl; 
   return 0;
 }
+
