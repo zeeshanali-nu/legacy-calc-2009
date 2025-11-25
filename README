@@ -1,3 +1,22 @@
+Lagecy Loan Calculator Refactored Version (lagecy-calc-20090
+Our project is improved version of lagecy c++ loan EMI calculator.
+
+The original code contain several issues:
+-lake of input validation
+-hard coded values
+-risk of numerical overflow
+Our objective is to fix these issues and restructure the code according to SE pricples.
+
+Objectives:
+-fix bugs
+-add proper input validation
+-privent overflow using safer data types
+-remove hard coded values
+-refector the program into c++ source file
+-unit testing
+-document using doxygen 
+-report
+
 A simple loan calculator written in C++ using a Qt GUI.
 
 Can be compiled with either make or SCons as follows:
