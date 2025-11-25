@@ -1,3 +1,7 @@
+calc
+*.exe
+*.o
+!docs/
 *.[oa]
 *~
 *.mk
@@ -6,3 +10,4 @@ nbproject/
 .sconsign.dblite
 loanCalculator
 moc*.cc
+
